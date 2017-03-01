@@ -14,3 +14,10 @@ Log shows `TestModel.class` is not mapped.
 ```
 This log statement is printed from https://github.com/singamreddy/MorphiaMapPackageIssue/blob/master/src/main/java/com/test/MorphiamapwarApplication.java#L22
 
+If same is executed without `.war` packaging as below, then Morphia is able to map the class.
+```
+mvn clean spring-boot:run
+```
+```
+INFO 89473 --- [main] com.test.MorphiamapwarApplication  : morphia.isMapped(TestModel.class) = true
+```
