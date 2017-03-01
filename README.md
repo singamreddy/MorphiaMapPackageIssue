@@ -1,5 +1,7 @@
 # Morphia mapPackage Issue - Not able to scan .war
 
+Sample application to reproduce issue: https://github.com/mongodb/morphia/issues/1153
+
 Build the project and execute it.
 ```
 mvn clean package
